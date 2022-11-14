@@ -1,0 +1,257 @@
+{ 
+    "beef": [
+        {
+            "id": 1,
+            "name": "Beef Bourguignon",
+            "imageURL": "https://www.themealdb.com/images/media/meals/vtqxtu1511784197.jpg",
+            "ingredients": "1 tablespoons extra-virgin olive oil, 6 ounces (170g) bacon, roughly chopped, 3 pounds (1 1/2 kg) beef brisket, trimmed of fat (chuck steak or stewing beef) cut into 2-inch chunks, 1 large carrot sliced 1/2-inch thick, 1 large white onion, diced, 6 cloves garlic, minced (divided), 1 pinch coarse salt and freshly ground pepper, 2 tablespoons flour, 12 small pearl onions (optional), 3 cups red wine like Merlot, Pinot Noir, or a Chianti -- for a milder sauce, use only 2 cups of wine, 2-3 cups beef stock (if using 2 cups of wine, use 3 cups beef stock), 2 tablespoons tomato paste, 1 beef bullion cube, crushed, 1 teaspoon fresh thyme, finely chopped, 2 tablespoons fresh parsley, finely chopped (divided), 2 bay leaves, 1 pound fresh small white or brown mushrooms, quartered, 2 tablespoons butter",
+            "likes": "0"
+        },
+
+        { 
+            "id": 2,
+            "meal": "Beef stroganoff",
+            "imageURL": "https://www.themealdb.com/images/media/meals/svprys1511176755.jpg",
+            "ingredients": "600 g / 1.2 lb scotch fillet steak / boneless rib eye, 2 tbsp vegetable oil , divided, 1 large onion (or 2 small onions), sliced, 300 g / 10 oz mushrooms , sliced (not too thin), 40 g / 3 tbsp butter, 2 tbsp flour, 2 cups / 500 ml beef broth , preferably salt reduced, 1 tbsp Dijon mustard, 150 ml / 2/3 cup sour cream, Salt and pepper, SERVING: 250 - 300 g / 8 - 10 oz pasta or egg noodles of choice (Note 3), Chopped chives , for garnish (optional)",
+            "likes": "0"
+        },
+
+        {
+            "id": 3,
+            "meal": "Gołąbki (cabbage roll)",
+            "imageURL": "https://www.themealdb.com/images/media/meals/q8sp3j1593349686.jpg",
+            "ingredients": "1 head white cabbage (3-3.3 lb, 1.3-1.5 kg) or savoy cabbage, 1.7 lb (800 g) ground pork (e.g. pork shoulder, 1 large onion (7 oz, 200 g), yellow or white, 2 tbsp neutral oil, e.g. canola, 3 garlic cloves, ½ cup (100 g) cooked rice - cooked al dente; that is roughly 1.2 oz/33 g of uncooked rice, 1 tbsp dried marjoram, 1 qt (1 litre) chicken stock, Salt, to season, Ground black pepper, to season, Handful of chopped dill or parsley, to garnish (optional), FOR TOMATO SAUCE: ⅓ stick (30 g) butter, 1 tbsp all-purpose flour, 1 cup (250 ml) stock - remaining from cooking Gołąbki / Gołąbki juices; or meat stock, 2 cups (500 g) tomato passata / purée, 1 tbsp tomato paste / concentrate, A pinch of sugar, Salt, to season, Ground black pepper, to season",
+            "likes": "0"
+        },
+
+        {
+            "id": 4,
+            "meal": "Moussaka",
+            "imageURL": "https://www.themealdb.com/images/media/meals/ctg8jd1585563097.jpg",
+            "ingredients": "6 eggplants, 5 potatoes (optional), vegetable oil (for frying the eggplants), For the meat sauce, 750g beef or lamb mince (26 oz), 2 red onions (chopped), 2 cloves of garlic (chopped), 1 tin chopped tomatoes (400g / 14oz), 2 tbsp tomato paste, 1 teaspoon sugar, 1 glass of red wine, Pinch of sea salt and freshly ground black pepper, 1 bay leaf, A pinch of cinnamon or one cinnamon stick, 1/4 of a cup olive oil, For the bechamel sauce: 900ml milk (31 fl.oz), 120g butter (4 oz), 120g flour (4 oz), a pinch of nutmeg, 2 egg yolks, 100g Parmigiano-Reggiano or Kefalotyri or your favourite hard cheese (3.5oz), salt to taste",
+            "likes": "0"
+        },
+
+        {
+            "id": 5,
+            "meal": "Spaghetti Bolognese",
+            "imageURL": "https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg",
+            "ingredients": "1 tablespoon olive oil, 4 ounces bacon or pancetta, diced, 1 1/2 cups chopped yellow onions, 3/4 cup diced carrots, 3/4 cup diced celery, 1 tablespoon minced garlic, 1 teaspoon salt, 1/2 teaspoon ground black pepper, 2 bay leaves, 1/2 teaspoon dried thyme, 1/4 teaspoon dried oregano, 1/2 teaspoon ground cinnamon, 1/2 teaspoon ground nutmeg, 1 pound ground beef or ground veal, 1/2 pound pork sausage, removed from the casings, or ground pork, 2 tablespoons tomato paste, 1 cup red wine, 2 (14 1/2-ounce) cans crushed tomatoes and their juice, 1 (14 1/2-ounce) can tomato sauce, 1 cup beef or chicken stock or broth, 2 teaspoons sugar, 1/4 cup heavy cream, 2 tablespoons unsalted butter, 3 tablespoons chopped fresh parsley leaves, 1 pound spaghetti, 1 cup freshly grated Parmesan",
+            "likes": "0"
+        }
+
+    ],
+
+    "chicken": [
+        {
+            "id": 1,
+            "meal": "Ayam Percik",
+            "imageURL": "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+            "ingredients": "1.2 kg or 4 Chicken Thighs and Drumstick pieces, Chicken Marinade, blend: 100g or 1 Onion (or about 5 shallots), 20g or 4-5 Garlic cloves, 20g or 1 inch Ginger, 2 tsps Salt, 2 tsps Sugar, 3g or 1 tsp Turmeric Powder, 2g or 1 tsp Coriander Seeds, 2g or 1 tsp Fennel, Percik Sauce-200ml Coconut Cream, 2 tbsps of Dried Chilli Paste (adjust according to spice tolerance), 1 tsp Tamarind Paste or Juice from 1 tbsp Tamarind pulp, 1 tbsp Brown Sugar, 1 tsp Salt, or to taste, Percik Sauce base paste, to blend: 100g or 1 Onion (or about 5 shallots), 20g or 4-5 Garlic cloves, 20g or 1 inch Ginger, 3 stalks Lemongrass, inner white core, 6 Candlenuts (or hazelnuts/cashew nuts)",
+            "likes": "0"
+        },
+        {
+            "id": 2,
+            "meal": "Katsu Chicken curry",
+            "imageURL": "https://www.themealdb.com/images/media/meals/vwrpps1503068729.jpg",
+            "ingredients": "FOR THE CHICKEN-650 g chicken breasts (£4.00), 70 g to 140g (6oz) panko breadcrumbs (if double dipping) (£1.25), 2 egg  (£1.39/12)=(£0.24), FOR THE SAUCE-1 tbsp ginger, peeled & grated (£0.55), 2 onions, diced (£0.65/3)=(£0.22), 1 carrot, thinly sliced (£0.09), 3 cloves of garlic, minced (£0.69/3)=(£0.23), 600 ml chicken stock, 1 tbsp honey/brown sugar, 1.5 tbsp curry powder, ½ tsp turmeric, 1 tbsp coconut oil, 2 tbsp rapeseed oil, 1.5 tbsp soy sauce, 2 tbsp flour, OTHER INGREDIENTS-Other 300g white/brown rice (£1.50/5X3)=(£0.90), Spring onions to garnish (£0.50), Chilli flakes",
+            "likes": "0"
+        },
+        {
+            "id": 3,
+            "meal": "Pad See Ew",
+            "imageURL": "https://www.themealdb.com/images/media/meals/uuuspp1468263334.jpg",
+            "ingredients": "NOODLES-200g / 7 oz dried wide rice stick noodles , or 15 oz / 450g fresh wide flat rice noodles (Sen Yai) (Note 1), SAUCE-2 tsp dark soy sauce (Note 2), 1 1/2 tbsp oyster sauce, 1 tbsp light soy sauce (or all purpose, Note 3), 2 tsp white vinegar (plain white vinegar), 2 tsp sugar (any type), STIR FRY-3 tbsp peanut or vegetable oil , separated, 2 cloves garlic cloves, very finely chopped, 1 cup / 150g / 5oz chicken thighs (boneless, skinless), sliced (Note 4), 1 large egg, 4 stems Chinese broccoli (Note 5)",
+            "likes": "0"
+        },
+        {
+            "id": 4,
+            "meal": "Shawarma",
+            "imageURL": "https://www.themealdb.com/images/media/meals/kcv6hj1598733479.jpg",
+            "ingredients": "1 kg / 2 lb chicken thigh fillets , skinless and boneless (Note 3), MARINADE-1 large garlic clove , minced (or 2 small cloves), 1 tbsp ground coriander, 1 tbsp ground cumin, 1 tbsp ground cardamon, 1 tsp ground cayenne pepper (reduce to 1/2 tsp to make it not spicy), 2 tsp smoked paprika, 2 tsp salt, Black pepper, 2 tbsp lemon juice, 3 tbsp olive oil, YOGHURT SAUCE-1 cup Greek yoghurt, 1 clove garlic , crushed, 1 tsp cumin, Squeeze of lemon juice, Salt and pepper",
+            "likes": "0"
+        },
+        {
+            "id": 5,
+            "meal": "Tandoori chicken",
+            "imageURL": "https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg",
+            "ingredients": "8 skinless, boneless chicken thighs (about 2 1/2 pounds), Juice of 1 lemon, Kosher salt, 1/2 cup plus 2 tablespoons plain yogurt, 1 tablespoon vegetable oil, 1/2 small red onion, roughly chopped, 3 cloves garlic, smashed, 1 2 -inch piece ginger, peeled and roughly chopped, 4 teaspoons tomato paste, 2 teaspoons ground coriander, 1 1/2 teaspoons ground cumin, 1 3/4 teaspoons hot paprika, 2 tablespoons chopped fresh cilantro",
+            "likes":"0"
+        },
+        {
+            "id": 6,
+            "meal": "Thai Green Curry",
+            "imageURL": "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
+            "ingredients": "4 - 6 tbsp Thai Green Curry Paste (Maesri best) OR (Note 1), 1 quantity homemade green curry paste (Note 1), EXTRAS - FOR JAR CURRY PASTE (NOTE 2): 2 large garlic cloves , minced, 2 tsp fresh ginger , finely grated, 1 tbsp lemongrass paste (Note 2), GREEN CURRY: 2 tbsp vegetable oil, 1 cup (250ml) chicken or vegetable broth, low sodium, 400 g/14oz coconut milk , full fat (Note 4), 1 - 3 tsp fish sauce *, 1 - 3 tsp white sugar *, 1/8 tsp salt *, 6 kaffir lime leaves , torn in half (Note 5), 350 g/12 oz chicken thigh , skinless boneless, sliced (Note 6), 2 Japanese eggplants, , small, 1cm / 2/5 inch slices (Note 7), 1 1/2 cups snow peas , small, trimmed, 16 Thai basil leaves (Note 8), Juice of 1/2 lime , to taste, GARNISHES: Crispy fried Asian shallots , high recommended (Note 9), Thai basil or cilantro/coriander , recommended",
+            "likes": "0"
+        }
+    ],
+    "pork": [
+        {
+            "id": 1,
+            "meal": " Bubble & Squeak",
+            "imageURL": "https://www.themealdb.com/images/media/meals/xusqvw1511638311.jpg",
+            "ingredients": "6 tablespoons unsalted butter, 1/2 cup finely chopped onion, 1 pound mashed potatoes (about 2 cups), 1 cup leftover vegetables (cabbage, kale, peas, cooked swede, cooked carrots, and/or cooked Brussels sprouts), finely chopped, Bacon, leftover roast, bangers, and/or ham, chopped, optional, Salt, to taste, Freshly ground black pepper, to taste, Fried or poached eggs, for serving, optional",
+            "likes": "0"
+        },
+        {
+            "id": 2,
+            "meal": "BBQ Pork Sloppy Joes",
+            "imageURL": "https://www.themealdb.com/images/media/meals/atd5sh1583188467.jpg",
+            "ingredients": "1 tablespoon vegetable oil, 1 1/2 to 2 pounds lean ground pork, 1 cup chopped onion, 1/2 cup chopped bell pepper, 1 clove garlic, minced, 1 cup ketchup, 1/4 cup water, 1 1/2 tablespoons Worcestershire sauce, 1 1/2 tablespoons light or dark brown sugar, packed, 1 teaspoon freshly ground black pepper, 1/4 teaspoon cayenne pepper, 1 dash ground allspice, Salt, to taste, optional, 6 to 8 split buns, toasted, for serving",
+            "likes": "0"
+        },
+        {
+            "id": 3,
+            "meal": "Bigos (Hunters Stew)",
+            "imageURL": "https://www.themealdb.com/images/media/meals/md8w601593348504.jpg",
+            "ingredients": "1 lb. double-smoked slab bacon, cut into 1 inch cubes, 1 lb. kielbasa sausage, sliced on a diagonal ½ inch thick, 8 garlic cloves, crushed, 3 Tbsp. double concentrated tomato paste, 1 Tbsp. paprika, 1 tsp. ground coriander, 1 tsp. ground cumin, ¾ tsp. cayenne pepper, 2 medium onions, thinly sliced, 1 cup dry white wine, 2 Tbsp. kosher salt, 1 small head of green cabbage (about 2 lb.), cored, thinly sliced, 2 large carrots, peeled, sliced 1½ inch thick, 1 Pink Lady apple, cored, grated on the large holes of a box grater, 2 lb. Yukon Gold potatoes, scrubbed, cut into 1 inch pieces, 1 lb. sauerkraut (not drained; about 2 cups), 4 cups homemade beef stock or water, Small dill sprigs, dark rye or pumpernickel bread, and unsalted butter (for serving)",
+            "likes": "0"
+        },
+        {
+            "id": 4,
+            "meal": "Boxty Breakfast",
+            "imageURL": "https://www.themealdb.com/images/media/meals/naqyel1608588563.jpg",
+            "ingredients": "1 ½ cups grated raw potatoes, 1 cup all-purpose flour, 1 cup leftover mashed potatoes, 1 large egg, 1 tablespoon skim milk, salt and pepper to taste, ¼ cup olive oil",
+            "likes": "0"
+        },
+        {
+            "id": 5,
+            "meal": "Japanese Katsudon",
+            "imageURL": "https://www.themealdb.com/images/media/meals/d8f6qx1604182128.jpg",
+            "ingredients": "2 center-cut (boneless pork chops, pounded down to a centimeter thick), salt and pepper flour (for dusting), 1 egg, 1 cup panko, oil (for frying), 1/2 cup dashi stock or chicken stock, 2 teaspoons sugar, 1 tablespoon soy sauce, 2 teaspoons Mirin, 2 large eggs, 1 medium onion (thinly sliced), 2 servings steamed white rice, 1 scallion (chopped)",
+            "likes": "0"
+        },
+        {
+            "id": 6,
+            "meal": "Vietnamese Grilled Pork (bun-thit-nuong)",
+            "imageURL": "https://www.themealdb.com/images/media/meals/qqwypw1504642429.jpg",
+            "ingredients": "1.5 lb (680.4 g) pork shoulder sliced (any cut will do), 1 package rice noodles small or medium thickness, 4-6 egg rolls optional, MARINADE-3 tbsp shallots minced, 1.5 tbsp garlic minced, 1/4 cup sugar, 1 tbsp fish sauce, 1/2 tbsp thick soy sauce, 1/2 tbsp pepper, 3 tbsp neutral cooking oil, VEGETABLES-green leaf lettuce, mint rau thơm, Vietnamese perilla tiá tô, Vietnamese balm kinh giới, cucumbers sliced, GARNISH-pickled daikon and carrots (đồ chua), 1/2 tbsp scallion in oil (mở hành), 1/2 tbsp crushed peanuts, DIPPING SAUCE-prepared fish sauce / nước chấm",
+            "likes": "0"
+        }
+    ],
+    "seafood": [
+        {
+            "id": 1,
+            "meal": "Baked salmon with fennel & tomatoes",
+            "imageURL": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+            "ingredients": "1.5 pounds salmon, cut into four 6-oz filets (rinsed and patted dry with paper towel), 3 cups halved grape tomatoes, 1 medium fennel bulb, cored, quartered, and very thinly sliced (about 2 heaping cups), 3 shallots, quartered, 2 tablespoons olive oil, divided, 1 teaspoon kosher salt, divided, ¾ teaspoon coarse ground black pepper, divided, 1 clove garlic, minced, 2 tablespoons fresh lemon juice, 2 tablespoons capers, drained, 2 teaspoons chopped fresh dill (or 1 teaspoon dried dill), 2 teaspoons Dijon mustard",
+            "likes": "0"
+        },
+        {
+            "id": 2,
+            "meal": "Fish fofos",
+            "imageURL": "https://www.themealdb.com/images/media/meals/a15wsa1614349126.jpg",
+            "ingredients": "10 ounces salted cod preferably thick pieces, soaked overnight [click for soaking directions], 14 ounces russet potatoes unpeeled, 1 small onion very finely chopped, 2 tablespoons finely chopped flat-leaf parsley, 3 large eggs, Vegetable or canola oil for frying",
+            "likes": "0"
+        },
+        {
+            "id": 3,
+            "meal": "Fish pie",
+            "imageURL": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg",
+            "ingredients": "1 cup fish stock, 1 cup milk, 12 ounces fish, skin and bones removed, cut into bite-sized chunks, 1 bay leaf, 2 ounces (4 tablespoons) unsalted butter, 1 medium leek, white part only, washed thoroughly and finely sliced, 2 ounces all purpose flour (a little less than 1/2 cup), 1 tablespoon finely chopped fresh parsley, Salt, to taste, Dash ground black pepper, or to taste, 5 1/2 cups mashed potatoes (warm and creamy), A handful of grated cheddar cheese, optional",
+            "likes": "0"
+        },
+        {
+            "id": 4,
+            "meal": "Fish Stew with Rouille",
+            "imageURL": "https://www.themealdb.com/images/media/meals/vptqpw1511798500.jpg",
+            "ingredients": "1 large leek, green part coarsely chopped and white part cut into 1/4-inch pieces, 5 tablespoons olive oil, 1 medium onion, coarsely chopped, 2 celery ribs, coarsely chopped, 2 carrots, coarsely chopped, 3 garlic cloves, smashed, 1/4 teaspoon crumbled saffron threads, 2 bay leaves (not California), 1 teaspoon dried hot red pepper flakes, 1 1/4 lb plum tomatoes, coarsely chopped, 3 tablespoons canned tomato purée, 2 cups dry white wine, 1 1/2 qt white fish stock, 1 (8- to 9-inch) unsliced round or oval pain au levain or sourdough loaf (1 lb), crust discarded, 2 tablespoons unsalted butter, 1 lb skinned white fish fillets such as halibut, snapper, and/or bass, cut into 1-inch cubes, 1 teaspoon salt, 2 cups rouille, 1 tablespoon chopped fresh oregano, 1 tablespoon chopped fresh flat-leaf parsley",
+            "likes": "0"
+        },
+        {
+            "id": 5,
+            "meal": "Kedgeree",
+            "imageURL": "https://www.themealdb.com/images/media/meals/utxqpt1511639216.jpg",
+            "ingredients": "4 large eggs, 6 ounces (about 7/8 cup) basmati rice, well rinsed, Kosher salt, to taste, 1 pound smoked haddock, 7 ounces milk, 2 ounces (4 tablespoons) unsalted butter, 2 large onions, finely sliced, about 2 1/2 to 3 cups, 4 teaspoons curry powder, 6 cardamom pods, bruised, 2 bay leaves, 1 1/2 tablespoons freshly squeezed lemon juice, Freshly ground black pepper, to taste, 1/4 cup finely chopped  flat-leaf parsley, for garnish, Lemon wedges, optional",
+            "likes": "0"
+        },
+        
+        {
+          "strMeal": "Laksa King Prawn Noodles",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/rvypwy1503069308.jpg",
+          "idMeal": "52821"
+        },
+        {
+          "strMeal": "Mediterranean Pasta Salad",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
+          "idMeal": "52777"
+        },
+        {
+          "strMeal": "Mee goreng mamak",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/xquakq1619787532.jpg",
+          "idMeal": "53048"
+        },
+        {
+          "strMeal": "Nasi lemak",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/wai9bw1619788844.jpg",
+          "idMeal": "53051"
+        },
+        {
+          "strMeal": "Portuguese fish stew (Caldeirada de peixe)",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/do7zps1614349775.jpg",
+          "idMeal": "53045"
+        },
+        {
+          "strMeal": "Recheado Masala Fish",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/uwxusv1487344500.jpg",
+          "idMeal": "52809"
+        },
+        {
+          "strMeal": "Salmon Avocado Salad",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/1549542994.jpg",
+          "idMeal": "52960"
+        },
+        {
+          "strMeal": "Salmon Prawn Risotto",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
+          "idMeal": "52823"
+        },
+        {
+          "strMeal": "Saltfish and Ackee",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/vytypy1511883765.jpg",
+          "idMeal": "52936"
+        },
+        {
+          "strMeal": "Seafood fideuà",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/wqqvyq1511179730.jpg",
+          "idMeal": "52836"
+        },
+        {
+          "strMeal": "Shrimp Chow Fun",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/1529445434.jpg",
+          "idMeal": "52953"
+        },
+        {
+          "strMeal": "Sledz w Oleju (Polish Herrings)",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/7ttta31593350374.jpg",
+          "idMeal": "53023"
+        },
+        {
+          "strMeal": "Spring onion and prawn empanadas",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/1c5oso1614347493.jpg",
+          "idMeal": "53040"
+        },
+        {
+          "strMeal": "Sushi",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg",
+          "idMeal": "53065"
+        },
+        {
+          "strMeal": "Three Fish Pie",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/spswqs1511558697.jpg",
+          "idMeal": "52882"
+        },
+        {
+          "strMeal": "Tuna and Egg Briks",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/2dsltq1560461468.jpg",
+          "idMeal": "52975"
+        },
+        {
+          "strMeal": "Tuna Nicoise",
+          "strMealThumb": "https://www.themealdb.com/images/media/meals/yypwwq1511304979.jpg",
+          "idMeal": "52852"
+        }
+
+    ]
+}
