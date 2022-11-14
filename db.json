@@ -166,92 +166,12 @@
             "ingredients": "4 large eggs, 6 ounces (about 7/8 cup) basmati rice, well rinsed, Kosher salt, to taste, 1 pound smoked haddock, 7 ounces milk, 2 ounces (4 tablespoons) unsalted butter, 2 large onions, finely sliced, about 2 1/2 to 3 cups, 4 teaspoons curry powder, 6 cardamom pods, bruised, 2 bay leaves, 1 1/2 tablespoons freshly squeezed lemon juice, Freshly ground black pepper, to taste, 1/4 cup finely chopped  flat-leaf parsley, for garnish, Lemon wedges, optional",
             "likes": "0"
         },
-        
         {
-          "strMeal": "Laksa King Prawn Noodles",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/rvypwy1503069308.jpg",
-          "idMeal": "52821"
-        },
-        {
-          "strMeal": "Mediterranean Pasta Salad",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg",
-          "idMeal": "52777"
-        },
-        {
-          "strMeal": "Mee goreng mamak",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/xquakq1619787532.jpg",
-          "idMeal": "53048"
-        },
-        {
-          "strMeal": "Nasi lemak",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/wai9bw1619788844.jpg",
-          "idMeal": "53051"
-        },
-        {
-          "strMeal": "Portuguese fish stew (Caldeirada de peixe)",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/do7zps1614349775.jpg",
-          "idMeal": "53045"
-        },
-        {
-          "strMeal": "Recheado Masala Fish",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/uwxusv1487344500.jpg",
-          "idMeal": "52809"
-        },
-        {
-          "strMeal": "Salmon Avocado Salad",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/1549542994.jpg",
-          "idMeal": "52960"
-        },
-        {
-          "strMeal": "Salmon Prawn Risotto",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg",
-          "idMeal": "52823"
-        },
-        {
-          "strMeal": "Saltfish and Ackee",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/vytypy1511883765.jpg",
-          "idMeal": "52936"
-        },
-        {
-          "strMeal": "Seafood fideuà",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/wqqvyq1511179730.jpg",
-          "idMeal": "52836"
-        },
-        {
-          "strMeal": "Shrimp Chow Fun",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/1529445434.jpg",
-          "idMeal": "52953"
-        },
-        {
-          "strMeal": "Sledz w Oleju (Polish Herrings)",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/7ttta31593350374.jpg",
-          "idMeal": "53023"
-        },
-        {
-          "strMeal": "Spring onion and prawn empanadas",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/1c5oso1614347493.jpg",
-          "idMeal": "53040"
-        },
-        {
-          "strMeal": "Sushi",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg",
-          "idMeal": "53065"
-        },
-        {
-          "strMeal": "Three Fish Pie",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/spswqs1511558697.jpg",
-          "idMeal": "52882"
-        },
-        {
-          "strMeal": "Tuna and Egg Briks",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/2dsltq1560461468.jpg",
-          "idMeal": "52975"
-        },
-        {
-          "strMeal": "Tuna Nicoise",
-          "strMealThumb": "https://www.themealdb.com/images/media/meals/yypwwq1511304979.jpg",
-          "idMeal": "52852"
+            "id": 6,
+            "meal": "Recheado Masala Fish",
+            "imageURL": "https://www.themealdb.com/images/media/meals/uwxusv1487344500.jpg",
+            "ingredients": "20 Kashmiri red Chillies or smoked sweet paprika, 10 cloves Garlic, 3 inch Ginger fresh, 10 Cloves, 10 Peppercorns or 1 teaspoon pepper powder, 1 large Cinnamon stick (3-inches), 4 Green cardamoms, 1 teaspoon Cumin jeera, 2 tbsp Jaggery (or dark brown sugar), 1 teaspoon Salt, 1 teaspoon Tamarind paste (or small golf size ball of fresh tamarind), ½ cup White vinegar Palm or white wine vinegar, ¼ cup Coconut vinegar (Feni), 1 large Onion, 1 tablespoon Cooking oil",
+            "likes": "0"
         }
-
     ]
 }
