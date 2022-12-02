@@ -1,69 +1,54 @@
-const BASE_URL = "http://localhost:3000"
+document.addEventListener("DOMContentLoaded", (event) => {
+    console.log('DOM fully loaded and parsed', event);
+  
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    const dropdown = document.querySelector("select")
+    dropdown.addEventListener("change", getMeat)
 
-//button variables for different meat selections
-const beefBtn = document.querySelector("#beef-button") 
-const chickenBtn = document.querySelector("#chicken-button")
-const porkBtn = document.querySelector("#pork-button")
-const seafoodBtn = document.querySelector("#seafood-button")
 
-//event listeners for buttons
-beefBtn.addEventListener("click", getBeef);
-chickenBtn.addEventListener("click", getChicken);
-porkBtn.addEventListener("click", getPork);
-seafoodBtn.addEventListener("click", getSeafood);
+    function getMeat(event){
+        const recipeList = document.querySelector("#recipe-list")
+        recipeList.innerHTML = ""
+        let meat = event.target.value
+        fetch(`http://localhost:3000/${meat}`)
+        .then (res => res.json())
+        .then ((recipeInfo) => {recipeInfo.map(recipe => {
+                
+                const recipeCard = document.createElement('div')
+        
+                recipeCard.innerHTML = `
+                    <h2 id="meal-name">${recipe.meal}</h2>
+                    <img src="${recipe.imageURL}">
+                    <p id="ingredients">INGREDIENTS: ${recipe.ingredients}</p>
+                    <button id=${recipe.id}-likes-button>${recipe.likes}</button>
+                    <form id="get-ingredients">MISSING INGREDIENTS: 
+                `
+                recipeList.appendChild(recipeCard)
+                document.getElementById(`${recipe.id}-likes-button`).addEventListener("click", () =>{
+                    console.log("liked")
+                })
+            })
+            
+        })
+        .catch(function() {
+            console.log("error");
+        });
+    }
 
-// function getRecipes() {
-//     recipe.forEach(meal => renderOneRecipe(meal))
-// }
 
-//functions that contain fetch GET requests for meat objects
-function getBeef() {
-    fetch("http://localhost:3000/beef")
-    .then (res => res.json())
-    .then ((recipeInfo) => recipeInfo.forEach(meal => renderOneRecipe(meal)))
-}
-
-//for each object in the array, I need to render the meal, imageURL, ingredients, likes onto the DOM. 
-//How do I grab each object in an array and put each object into its own recipe card
-//I need to grab each object by it's id
-//The DOM needs to have a container for each meal to store the meal data
-
-//getBeef()
-
-function getChicken() {
-    fetch("http://localhost:3000/chicken")
-    .then (res => res.json())
-    .then ((recipeInfo) => recipeInfo.forEach(meal => renderOneRecipe(meal)))
-}
-
-function getPork() {
-    fetch("http://localhost:3000/pork")
-    .then (res => res.json())
-    .then ((recipeInfo) => recipeInfo.forEach(meal => renderOneRecipe(meal)))
-}
-
-function getSeafood() {
-    fetch("http://localhost:3000/seafood")
-    .then (res => res.json())
-    .then ((recipeInfo) => recipeInfo.forEach(meal => renderOneRecipe(meal)))
-}
-
-function renderOneRecipe(recipe) {
-    let recipeCard = document.createElement('li')
-    recipeCard.classname = 'recipe'
-    recipeCard.innerHTML = `
-        <div class="title">
-            <h1>${recipe.meal}</h1>
-        </div>
-        <img src="${recipe.imageURL}">
-        <div class="content">
-            <h4>${recipe.ingredients}</h4>
-        <div id="heart">
-            <button> ${recipe.likes}</button>
-        </div>
-    `
-    document.querySelector("#recipe-list").appendChild(recipeCard)
-}
-
-//toggle page
+    // //function likeRecipe() {
+    //         //console.log("liked")
+    //     //     fetch("http://localhost:3000/" + `/${recipe.id}`), {
+    //     //         method: "PATCH",
+    //     //         headers: {
+    //     //             'Content-Type': 'application/json'
+    //     //         },
+    //     //         body: JSON.stringify(recipeInfo)
+    //     //     }
+    //     //     .then (res => res.json())
+    //     //     .then (recipeInfo => recipeInfo)
+    //     //}
+    // //}
+});
 
