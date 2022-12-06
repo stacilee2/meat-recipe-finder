@@ -32,8 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     recipe.likes += 1
                     recipeCard.querySelector("#collect-likes").textContent = recipe.likes
                     const meat = e.target.dataset.meat
-                    updateLikes(recipe, meat)
-                    console.log("Clicked")
+                    console.log(meat)
                 })
 
             })
@@ -42,24 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(function() {
             console.log("error");
         });  
-        //PATCH request to update DOM and collect likes in database
-        function updateLikes(recipe, meat){
-            fetch(`http://localhost:3000/${meat}/${recipe.id}`), {
-                method: "PATCH",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(recipe)
-            }
-            .then(res => {
-                console.log(res)
-            })
-            
-            // .catch(function (error) {
-            //     alert("Error");
-            //     console.log(error.message);
-            //   });
-        }
     }
 });
 
