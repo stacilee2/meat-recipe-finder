@@ -1,12 +1,13 @@
-document.addEventListener("DOMContentLoaded", (event) => {
-    console.log('DOM fully loaded and parsed', event);
+document.addEventListener("DOMContentLoaded", () => {
+    console.log('DOM fully loaded and parsed');
+
   
     /* When the user clicks on the button, 
     toggle between hiding and showing the dropdown content */
     const dropdown = document.querySelector("select")
     dropdown.addEventListener("change", getMeat)
 
-
+    //Meat recipes are rendered onto the DOM when the user selects a meat
     function getMeat(event){
         const recipeList = document.querySelector("#recipe-list")
         recipeList.innerHTML = ""
@@ -16,39 +17,43 @@ document.addEventListener("DOMContentLoaded", (event) => {
         .then ((recipeInfo) => {recipeInfo.map(recipe => {
                 
                 const recipeCard = document.createElement('div')
-        
+                //Recipe card is created with name of meal, photo, ingredients, like button
                 recipeCard.innerHTML = `
                     <h2 id="meal-name">${recipe.meal}</h2>
                     <img src="${recipe.imageURL}">
                     <p id="ingredients">INGREDIENTS: ${recipe.ingredients}</p>
-                    <button id=${recipe.id}-likes-button>${recipe.likes}</button>
-                    <form id="get-ingredients">MISSING INGREDIENTS: 
+                    <p id="likes">Likes: </p>
+                    <p id="collect-likes">${recipe.likes}</p>
+                    <button id="likes-button" class="btn">Like</button> 
                 `
                 recipeList.appendChild(recipeCard)
-                document.getElementById(`${recipe.id}-likes-button`).addEventListener("click", () =>{
-                    console.log("liked")
+                //When like button is clicked the server is notified and database is updated
+                recipeCard.querySelector("#likes-button").addEventListener("click", () => {
+                    recipe.likes += 1
+                    recipeCard.querySelector("#collect-likes").textContent = recipe.likes
+                    updateLikes(recipe)
+                    console.log("Clicked")
                 })
+
             })
             
         })
         .catch(function() {
             console.log("error");
-        });
+        });  
+
+        function updateLikes(recipe){
+            fetch(`http://localhost:3000/${recipe.id}`), {
+                method: "PATCH",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(recipe)
+            }
+            .then(res => res.json())
+            .then(likes => console.log(likes))
+        }
+        
     }
-
-
-    // //function likeRecipe() {
-    //         //console.log("liked")
-    //     //     fetch("http://localhost:3000/" + `/${recipe.id}`), {
-    //     //         method: "PATCH",
-    //     //         headers: {
-    //     //             'Content-Type': 'application/json'
-    //     //         },
-    //     //         body: JSON.stringify(recipeInfo)
-    //     //     }
-    //     //     .then (res => res.json())
-    //     //     .then (recipeInfo => recipeInfo)
-    //     //}
-    // //}
 });
 
