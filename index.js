@@ -21,17 +21,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 recipeCard.innerHTML = `
                     <h2 id="meal-name">${recipe.meal}</h2>
                     <img src="${recipe.imageURL}">
-                    <p id="ingredients">INGREDIENTS: ${recipe.ingredients}</p>
-                    <p id="likes">Likes: </p>
-                    <p id="collect-likes">${recipe.likes}</p>
-                    <button id="likes-button" class="btn">Like</button> 
+                    <p id="ingredients" class ="contents">INGREDIENTS: ${recipe.ingredients}</p>
+                    <p>Likes: </p>
+                    <p id="collect-likes" class="collect">${recipe.likes}</p>
+                    <button id="likes-button" data-meat=${meat} class="btn">Like</button> 
                 `
                 recipeList.appendChild(recipeCard)
                 //When like button is clicked the server is notified and database is updated
-                recipeCard.querySelector("#likes-button").addEventListener("click", () => {
+                recipeCard.querySelector("#likes-button").addEventListener("click", (e) => {
                     recipe.likes += 1
                     recipeCard.querySelector("#collect-likes").textContent = recipe.likes
-                    updateLikes(recipe)
+                    const meat = e.target.dataset.meat
+                    updateLikes(recipe, meat)
                     console.log("Clicked")
                 })
 
@@ -41,19 +42,24 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(function() {
             console.log("error");
         });  
-
-        function updateLikes(recipe){
-            fetch(`http://localhost:3000/${recipe.id}`), {
+        //PATCH request to update DOM and collect likes in database
+        function updateLikes(recipe, meat){
+            fetch(`http://localhost:3000/${meat}/${recipe.id}`), {
                 method: "PATCH",
                 headers: {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify(recipe)
             }
-            .then(res => res.json())
-            .then(likes => console.log(likes))
+            .then(res => {
+                console.log(res)
+            })
+            
+            // .catch(function (error) {
+            //     alert("Error");
+            //     console.log(error.message);
+            //   });
         }
-        
     }
 });
 
