@@ -1,18 +1,62 @@
 h1{
     background-color: rgb(180, 197, 92);
+    border-radius: 5%;
+    border-style: ridge;
     width: 350px;
     height: 50px;
 }
 
+h3{
+    border-bottom: black;
+    border-bottom: groove;
+}
+
 body {
     background: olivedrab;
+    border-style:initial
 
+}
+.dropdown{
+    padding-block: 0%;
+}
+.card {
+    background-color: #BDB76B;
+    border-radius: 10%;
+    border-style: ridge;
+    width: 720px;
+    height: 950px;
+    padding: 5%;
+    display: block
+}
+
+.h2-name{
+    display: block
+}
+
+.recipe-image {
+    width: 500px;
+    height: 500px;
+    padding-top: 3%
+}
+
+.ingredients {
+    width: 700px;
+    height: 175px;
 }
 
 div {
     border-color: black;
 }
 
-.btn {
+.like-btn {
     background-color: #F08080;
+}
+
+.heart{
+    display: none;
+}
+.error{
+    background-color: rgb(208, 119, 119);
+    width: 300px;
+    display: none;
 }
