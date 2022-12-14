@@ -10,7 +10,11 @@ BASE_URL = "http://localhost:3000"
 
 -User will be able to see recipe image, recipe name, ingredients, and "like" a recipe
 
--DOM will be updated with likes on webpage
+-As user moves the mouse over the image, the image will enlarge. When the user mouses out of an image, the image returns to original size
+
+-DOM will be updated with liked recipes and heart on webpage
+
+-If catch error occurs during fetch request, then error message should display on the application
 
 
 Expected Output:
