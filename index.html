@@ -2,23 +2,50 @@
 <html lang="en">
     <title>Meat Recipe Finder</title>
     <link rel="stylesheet" href="./style.css" />
+    
+    </div>
     <head>
         <br>
         <body>
-            <center><h1>Meat Recipe Finder</h1></center>
-            <div></div>
+            <center><h1>Meat Recipe Finder</h1>
+                <h3>Select Choice Meals by Meat Preference</h3>
+                <p id="heart" class="heart">&#10084;&#65039;</p>
+                <div id="error" class="error">Resource Not Found...</div>
+            </center>
             <br>
-            <center><button id="beef-button">Beef</button></center>
-            <center><button id="chicken-button">Chicken</button></center>
-            <center><button id="pork-button">Pork</button></center>
-            <center><button id="seafood-button">Seafood</button></center>
-            <ul id="beef-recipes" class="recipes">
+            <center><select id="meat-dropdown" class="dropdown" name="select-meat">
+                <option>Select</option>
+                <option value="beef">Beef</option>
+                <option value="chicken">Chicken</option>
+                <option value="pork">Pork</option>
+                <option value="seafood">Seafood</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            
+        </center>
 
-            </section> 
+                <center><div id="recipe-list">
+                    <ul id="recipe-container"></ul>
 
-            </div>
+                    
+                </div></center>
+
+                <!-- <center><form id="request-form">
+                    <p>Any Recipes You Want to See?</p>
+                    <label for="requests"> Recipe Requests Here: </label>
+                    <input type="text" name="request" id="request">
+                    <input type="Submit" value="submit">
+              </form></center>
+
+                  <center><p id="requests-section"></p></center> -->
+
+                <br>
+
             <br>
             <script src="index.js"></script>
         </body>
     </head>
 </html>
+
