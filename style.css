@@ -51,12 +51,3 @@ div {
 .like-btn {
     background-color: #F08080;
 }
-
-.heart{
-    display: none;
-}
-.error{
-    background-color: rgb(208, 119, 119);
-    width: 300px;
-    display: none;
-}
