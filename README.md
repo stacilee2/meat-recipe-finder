@@ -12,9 +12,7 @@ BASE_URL = "http://localhost:3000"
 
 -As user moves the mouse over the image, the image will enlarge. When the user mouses out of an image, the image returns to original size
 
--DOM will be updated with liked recipes and heart on webpage
-
--If catch error occurs during fetch request, then error message should display on the application
+-DOM will be updated with liked recipes
 
 
 Expected Output:
